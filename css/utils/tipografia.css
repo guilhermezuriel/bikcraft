@@ -1,13 +1,36 @@
-.texto-grande{
-  font-size: 64px;
-  line-height: 1.125;
-  font-family: 'Poppins';
-  font-weight: 600;
+.font-1-xs{
+  font: 400 0.75rem/1.35 "Poppins", sans-serif;
 }
 
-.texto-medio{
-  font-size: 24px;
-  line-height: 1.5;
-  font-family: 'Roboto';
+.font-2-xs{
+  font-size: 0.9rem;
   font-weight: 400;
+  line-height: 1.425;
+  font-family: "Roboto";
 }
+
+.font-2-s{
+  font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.font-1-s{
+  /* font-1-s */
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.font-1-xxl{
+  font: 600 4rem/1.125 'Poppins', sans-serif;
+}
+
+.font-2-l{ 
+  font: 400 1.5rem/1.5 'Roboto',sans-serif ;
+}
+
