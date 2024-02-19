@@ -24,11 +24,16 @@
 }
 
 .bicicletas-lista a{
-  display: block  ;
+  display: block;
 }
 
 .bicicletas-lista img{
   margin-bottom: 16px;
+}
+
+#bicicleta .bicicletas-lista  a img{
+  
+  object-fit: contain;
 }
 
 .bicicletas-lista h3{

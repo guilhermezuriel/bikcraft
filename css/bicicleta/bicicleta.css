@@ -6,6 +6,10 @@
   padding-bottom: 60px;
 }
 
+.bicicletaLinks-bg{
+  background-color: var(--cor-0);
+}
+
 .bicicleta-imagens{
   display: flex;
   flex-wrap: wrap;
