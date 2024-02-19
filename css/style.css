@@ -18,6 +18,8 @@
 /*Bicicletas*/
 @import './bicicletas/bicicletas-lista.css';
 @import './bicicletas/bicicletas.css';
+/*Específico para cada bicicleta*/
+@import './bicicleta/bicicleta.css';
 /*Termos*/
 @import './termos/termos.css';
 /*Footer */
