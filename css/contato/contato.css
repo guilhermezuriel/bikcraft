@@ -1,5 +1,5 @@
 #contato{
-  background: var(--cor-1);
+  background: linear-gradient(var(--cor-11) 600px, var(--cor-1) 0px);
 }
 
 .contato{
@@ -65,3 +65,28 @@
   padding-left: 28px;
 }
 
+@media (max-width: 800px){
+  .contato{
+    grid-template-columns: 1fr;
+  }
+  .contato-dados,
+  .contato-formulario{
+    padding: 20px;
+  }
+  .contato-dados{
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 0px;
+  }
+  .contato-formulario{
+    border-radius: 0 0 5px 5px;
+  }
+  .contato-dados h2,
+  .contato-meios a:nth-child(3){
+    margin-bottom: 2rem;
+  }
+  .contato-rede{
+    background: url('../../img/icones/telefone.svg') no-repeat 0px -2px;
+    margin-bottom: 32px;
+  }
+
+}
