@@ -49,12 +49,39 @@
           <h2 class="font-1-xs cor-5">Escolha a sua</h2>
           <input type="radio" name="produto" value="nimbus" id="nimbus">
           <label for="nimbus">Nimbus Stark <span>R$ 4999</span></label>
+          <div class="orcamento-detalhes">
+            <ul class="font-1-xs cor-8">
+              <li><img src="./img/icones/eletrica.svg" alt="">Motor Elétrico</li>
+              <li><img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+              <li><img src="./img/icones/velocidade.svg" alt="">50 km/h</li>
+              <li><img src="./img/icones/rastreador.svg" alt="">Rastreador</li>
+            </ul>
+            <img src="./img/bicicletas/nimbus.jpg" alt="Imagem da bicicleta preta nimbus">
+          </div>
 
           <input type="radio" name="produto" value="nebula" id="nebula">
           <label for="nebula">Nebula Cosmic<span>R$ 3999</span></label>
+          <div class="orcamento-detalhes">
+            <ul class="font-1-xs cor-8">
+              <li><img src="./img/icones/eletrica.svg" alt="">Motor Elétrico</li>
+              <li><img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+              <li><img src="./img/icones/velocidade.svg" alt="">40 km/h</li>
+              <li><img src="./img/icones/rastreador.svg" alt="">Rastreador</li>
+            </ul>
+            <img src="./img/bicicletas/nebula.jpg" alt="Imagem da bicicleta branca nebula">
+          </div>
 
           <input type="radio" name="produto" value="magic" id="magic">
           <label for="magic">Magic Night<span>R$ 2499</span></label>
+          <div class="orcamento-detalhes">
+            <ul class="font-1-xs cor-8">
+              <li><img src="./img/icones/eletrica.svg" alt="">Motor Elétrico</li>
+              <li><img src="./img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+              <li><img src="./img/icones/velocidade.svg" alt="">30 km/h</li>
+              <li><img src="./img/icones/rastreador.svg" alt="">Rastreador</li>
+            </ul>
+            <img src="./img/bicicletas/magic.jpg" alt="Imagem da bicicleta cinza magic">
+          </div>
 
         </div>
 
@@ -64,18 +91,18 @@
           <label for="prata">Prata <span>R$ 199</span></label>
 
           <input type="radio" name="produto" value="ouro" id="ouro">
-          <label for="ouro">Prata <span>R$ 199</span></label>
+          <label for="ouro">Ouro <span>R$ 299</span></label>
         </div>
       </div>
       <div class="orcamento-dados form">
         <h2 class="font-1-xs cor-9 col-2">dados pessoais</h2>
         <div>
           <label for="nome">Nome</label>
-          <input type="text" name="nome" id="nome" placeholder="nome">
+          <input type="text" name="nome" id="nome" placeholder="Nome">
         </div>
         <div>
           <label for="sobrenome">Sobrenome</label>
-          <input type="text" name="sobrenome" id="sobrenome" placeholder="sobrenome">
+          <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
         </div>
         <div class="col-2">
           <label for="nome">CPF</label>
@@ -88,7 +115,7 @@
         <h2 class="font-1-xs cor-9 col-2">entrega</h2>
         <div>
           <label for="cep">CEP</label>
-          <input type="text" id="cep" name="cep">
+          <input type="text" id="cep" name="cep" placeholder="00000-000">
         </div>
         <div>
           <label for="numero">Número</label>
@@ -96,7 +123,7 @@
         </div>
         <div>
           <label for="logradouro">Logradouro</label>
-          <input type="text" id="logradouro" name="logradouro">
+          <input type="text" id="logradouro" name="logradouro" placeholder="Rua, Avenida...">
         </div>
         <div>
           <label for="cep">Bairro</label>
@@ -107,8 +134,40 @@
           <input type="text" id="cidade" name="cidade">
         </div>
         <div>
-          <label for="cep">Estado</label>
-          <input type="text" id="estado" name="estado">
+          <label for="estado">Estado</label>
+          <select name="estado" id="">
+            <option value="">Acre</option>
+            <option value="">Alagoas</option>
+            <option value="">Amapá</option>
+            <option value="">Amazonas</option>
+            <option value="">Bahia</option>
+            <option value="">Ceará</option>
+            <option value="">Distrito Federal</option>
+            <option value="">Espiríto Santo</option>
+            <option value="">Goiás</option>
+            <option value="">Maranhão</option>
+            <option value="">Mato Grosso</option>
+            <option value="">Mato Grosso do Sul</option>
+            <option value="">Minas Gerais</option>
+            <option value="">Pará</option>
+            <option value="">Paraíba</option>
+            <option value="">Paraná</option>
+            <option value="">Pernambuco</option>
+            <option value="">Piauí</option>
+            <option value="">Rio de Janeiro</option>
+            <option value="">Rio Grande do Norte</option>
+            <option value="">Rio Grande do Sul</option>
+            <option value="">Rondônia</option>
+            <option value="">Roraima</option>
+            <option value="">Santa Catarina</option>
+            <option value="">São Paulo</option>
+            <option value="">Sergipe</option>
+            <option value="">Tocantins</option>
+          </select>
+        </div>
+        <div class="checkbox col-2">
+          <input type="checkbox" name="termos" id="termos-condicoes" value="termos">
+          <label for="termos-condicoes">Li e aceito os <a href="./termos.html">termos e condições.</a></label>
         </div>
         <button class="button col-2">Solicitar orçamento</button>
       </div>
