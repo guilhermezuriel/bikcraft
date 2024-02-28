@@ -33,13 +33,9 @@
   position: absolute;
 }
 
-.header-menu a:hover:after{
-  content: '';
-  display: block;
-  height: 2px;
+.header-menu a:hover:after,
+.header-menu .ativo::after{
   width: 100%;
-  background: #ffff;
-  margin-top: 4px;
 }
 
 @media(max-width: 800px){
